@@ -1,0 +1,36 @@
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  margin: 15px;
+}
+
+#gameBoard{
+  border: 5px solid black;
+  width: calc(7*100px);
+  background-color: rgba(229,255,204,5);
+}
+
+#gameContainer{
+  margin: auto;
+}
+
+#gameBoard td{
+  width: 100px;
+  height: 100px;
+}
+.dot{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: grey;
+  display: inline-block;
+}
